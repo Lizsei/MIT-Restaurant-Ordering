@@ -1,8 +1,12 @@
 # .gitignore
 
-# Ignore node_modules directory
+# Ignore node_modules folder
 node_modules/
 
 # Ignore environment files
 .env.development
 .env.production
+
+# Ignore .DS_Store and /.next
+.DS_Store
+/.next
