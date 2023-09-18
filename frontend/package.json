@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "start:backend": "npm start --prefix ./backend",
-    "start:both": "concurrently \"npm run dev\" \"npm run start:backend\""
+    "start": "next start"
+    
   },
   "dependencies": {
     "@apollo/client": "^3.2.4",

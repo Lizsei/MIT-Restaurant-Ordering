@@ -18,6 +18,7 @@
     "eslint-plugin-react": "^7.14.0"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "knex": "^0.21.6",
     "lodash": "^4.17.5",
     "sqlite3": "^5.0.0",
@@ -42,8 +43,8 @@
     "uuid": "a45046ad-52e3-426c-a7aa-25c5de132bfe"
   },
   "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=6.0.0"
+    "node": "14.21.3",
+    "npm": "6.14.18"
   },
   "license": "MIT"
 }
